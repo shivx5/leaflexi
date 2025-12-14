@@ -6,7 +6,7 @@ import rightArrow from "../../../assets/Rent/rightarrow.svg";
 import leftArrow from "../../../assets/Rent/leftarrow.svg";
 import CarDetail from "./CarDetail";
 import navItems from "../../../Utility/NavItemList";
-import Arrow from "../../../assets/CarDetail/BlueArrow.svg";
+import Arrow from "../../../assets/CarDetail/blueArrow.svg";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 
 function HomeCars() {
