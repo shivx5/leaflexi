@@ -1,5 +1,5 @@
-import logout from "../assets/Menu/logout.svg";
-import trip from "../assets/Menu/file.svg";
+import logout from "../assets/Menu/Logout.svg";
+import trip from "../assets/Menu/File.svg";
 import support from "../assets/Profile/support.svg";
 import saved from "../assets/Profile/trips.svg";
 const ProfileList = {
