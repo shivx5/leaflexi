@@ -1,4 +1,4 @@
-import Q1Car from "../assets/Rent/q1car.jpg";
+import Q1Car from "../assets/Rent/q1Car.jpg";
 import Q2Car from "../assets/Rent/q2car.jpg";
 const HostCardList = [
   {
