@@ -5,7 +5,7 @@ import Location from "../../assets/Rent/location.svg";
 import Calendar from "../../assets/Rent/calendar.svg";
 import Divider from "../../assets/Rent/VerticalDivider.svg";
 import search from "../../assets/Rent/search.svg";
-import car from "../../assets/Rent/Carimg.jpg";
+import car from "../../assets/Rent/CarImg.jpg";
 import RentData from "./RentData/RentData.jsx";
 
 // Refer Shadcn Ui
