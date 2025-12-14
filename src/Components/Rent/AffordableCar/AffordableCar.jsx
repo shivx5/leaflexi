@@ -3,7 +3,7 @@ import ExclOffer from "../../../assets/Rent/ExclusiveOffers.svg";
 import rightArrow from "../../../assets/Rent/rightarrow.svg";
 import leftArrow from "../../../assets/Rent/leftarrow.svg";
 import CarDetail from "../HomeCars/CarDetail";
-import Arrow from "../../../assets/CarDetail/BlueArrow.svg";
+import Arrow from "../../../assets/CarDetail/blueArrow.svg";
 import { useNavigate } from "react-router-dom";
 
 function AffordableCar() {
