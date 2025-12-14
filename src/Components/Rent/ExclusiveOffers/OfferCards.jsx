@@ -1,7 +1,7 @@
 import React from "react";
 import carImg1 from "../../../assets/Offer/carImg1.png";
 import New from "../../../assets/Offer/new.svg";
-import Alert from "../../../assets/Offer/OfferAlert.svg";
+import Alert from "../../../assets/Offer/Offeralert.svg";
 import line from "../../../assets/Offer/line.svg";
 function OfferCards({ data }) {
   // console.log(data)
