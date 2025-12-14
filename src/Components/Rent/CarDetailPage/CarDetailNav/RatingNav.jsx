@@ -1,5 +1,5 @@
 import React from "react";
-import filledStar from "../../../../assets/CarDetail/filledstar.svg";
+import filledStar from "../../../../assets/CarDetail/filledStar.svg";
 import emptyStar from "../../../../assets/CarDetail/emptystar.svg";
 import profile from "../../../../assets/CarDetail/profile.svg";
 import more from "../../../../assets/CarDetail/more.svg";
