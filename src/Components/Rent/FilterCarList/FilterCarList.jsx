@@ -3,7 +3,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import FilterList from "../../../Utility/FilterList.js";
 import SingleFilter from "./SingleFilter.jsx";
 import CarDetail from "../HomeCars/CarDetail.jsx";
-import Location from "../../../assets/Rent/Location.svg";
+import Location from "../../../assets/Rent/location.svg";
 import calender from "../../../assets/Rent/calender.svg";
 import filter from "../../../assets/CarFilter/filter.svg";
 import search from "../../../assets/CarFilter/Search.png";
