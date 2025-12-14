@@ -2,7 +2,7 @@ import React from "react";
 import Explore from "../../CustButton/Explore.jsx";
 import Car from "../../assets/Question/car.jpg";
 import PropTypes from "prop-types";
-import Arrow from "../../assets/CarDetail/BlueArrow.svg";
+import Arrow from "../../assets/CarDetail/blueArrow.svg";
 
 function HostCard({ data }) {
   const { button, id, que, desc, img, type } = data || {}; // Destructuring for cleaner code
