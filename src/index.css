@@ -1,0 +1,120 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* @custom-variant dark (&:is(.dark *)); */
+
+@theme {
+  /* --font-display : 'DM Sans',"sans-serif"; ////default fonts/// */
+  --font-*: initial;
+  --font-sans: "DM Sans", "serif";
+  /* add new font if needed */
+  /* --font-display: "Oswald", "sans-serif"; */
+  /* -------------------------------------------------- Custom colors for project --------- */
+
+  --color-primary: #7149e1;
+  --color-background: #fcfcfc;
+
+  /* Neutral colors */
+  --color-N1: #0a0a0a;
+  --color-N2: #1a1a1a;
+  --color-N3: #333333;
+  --color-N4: #4d4d4d;
+  --color-N5: #666666;
+  --color-N6: #808080;
+  --color-N7: #888888;
+  --color-N8: #999999;
+  --color-N9: #cccccc;
+  --color-N10: #e6e6e6;
+  --color-N11: #f0f0f0;
+  --color-N12: #fafafa;
+
+  /*  symentics  */
+  --color-g: #1ca350;
+  --color-g: #ee0000;
+
+  /* Violets color */
+  --color-v1: #f1edfc;
+  --color-v2: #d3c7f6;
+  --color-v3: #beabf1;
+  --color-v4: #a085eb;
+  --color-v5: #8d6de7;
+  --color-v6: #7149e1;
+  --color-v7: #6742cd;
+  --color-v8: #5034a0;
+  --color-v9: #3e287c;
+  --color-v10: #2f1f5f;
+
+  --animate-fillRight: fillRight 4s ease-in-out forwards;
+  --animate-fillLeft: fillLeft 0.4s ease-in-out forwards;
+  /* --animate-fade-in-scale: fade-in-scale 0.3s ease-out, */
+  @keyframes fillRight {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @keyframes fillLeft {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari */
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+.round-range::-webkit-slider-thumb {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+/* Custom Range Slider */
+.custom-range {
+  @apply w-full h-1 bg-gray-300 rounded-lg appearance-none cursor-pointer;
+}
+
+/* Styling for Chrome, Safari */
+.custom-range::-webkit-slider-thumb {
+  @apply appearance-none w-3.5 h-3.5 bg-black rounded-full shadow-md 
+         hover:bg-gray-700 active:scale-110;
+}
+
+/* Styling for Firefox */
+.custom-range::-moz-range-thumb {
+  @apply w-5 h-5 bg-black rounded-full shadow-md 
+         hover:bg-gray-700 active:scale-110;
+}
+.border-gradient {
+  border-width: 2px;
+  border-style: solid;
+  border-image-source: linear-gradient(180deg, #2133d6 0%, #7d21cf 65%);
+  border-image-slice: 1;
+  border-radius: 5rem;
+}
+.background-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(33, 51, 214, 0.6) 0%,
+    rgba(125, 33, 207, 0.6) 65%
+  );
+}
+.backgroundImageGradient {
+  background: linear-gradient(
+    180deg,
+    rgba(33, 51, 214, 0.6) 0%,
+    rgba(125, 33, 207, 0.6) 65%
+  );
+}
+/* Wider calendar and larger font */
+
+/* Customize selected date appearance */
