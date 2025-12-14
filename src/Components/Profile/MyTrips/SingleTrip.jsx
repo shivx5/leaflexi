@@ -1,7 +1,7 @@
 import React from "react";
 import car from "../../../assets/Rent/car.jpg";
 import money from "../../../assets/Profile/moneyBag.svg";
-import arrow from "../../../assets/carDetail/blueArrow.svg";
+import arrow from "../../../assets/CarDetail/blueArrow.svg";
 import dot from "../../../assets/Profile/dot.svg";
 function SingleTrip({ data, tripName, type = "requested" }) {
   const {
