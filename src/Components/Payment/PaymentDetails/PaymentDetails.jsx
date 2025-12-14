@@ -4,7 +4,7 @@ import pin from "../../../assets/Payment/pin.svg";
 import bell from "../../../assets/Payment/bell.svg";
 import info from "../../../assets/Payment/info.svg";
 import wrong from "../../../assets/Payment/wrong.svg";
-import BlaclArrow from "../../../assets/Menu/blackArrow.svg";
+import BlaclArrow from "../../../assets/Menu/BlackArrow.svg";
 import car from "../../../assets/CarDetail/CarImage.svg";
 import LocationNav from "../../Rent/CarDetailPage/CarDetailNav/LocationNav";
 import FAQNav from "../../Rent/CarDetailPage/CarDetailNav/FAQNav";
