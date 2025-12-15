@@ -19,11 +19,11 @@ function Rent() {
   }
   // min-h-[80svh]
   return (
-    <div className="min-h-screen flex justify-center items-center">
+    <div className="min-h-svh flex justify-center items-center">
       <div className="  absolute  -z-30  h-screen inset-0">
         <img src={car} className="object-cover h-screen w-screen "></img>
       </div>
-      <div className="flex flex-col gap-6 md:gap-10 lg:gap-14 w-full    px-4 sm:px-6 md:px-12 lg:px-24  pt-10">
+      <div className="flex flex-col gap-6 md:gap-10 lg:gap-14 w-full    px-4 sm:px-6 md:px-12 lg:px-24 ">
         <div className="  flex text-center items-center justify-around  ">
           <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-N12 w-[80%]    leading-8  md:leading-12 lg:leading-16">
             Freedom to Roam – Self Drive Made Easy in Chennai
