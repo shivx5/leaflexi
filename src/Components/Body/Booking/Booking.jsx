@@ -14,7 +14,7 @@ function Booking({ id, host }) {
   const { type, title1, title2, para, style, data } = BookingList[id] || {};
 
   return (
-    <div className="flex flex-col h-auto w-auto lg:gap-12 md:gap-10 sm:gap-8 gap-6 lg:p-24 md:p-12  p-4 pt-10 ">
+    <div className="flex flex-col h-auto w-auto lg:gap-12 md:gap-10 sm:gap-8 gap-6 lg:p-24 md:p-12  p-4 mt-4  ">
       {/* Header Section */}
 
       {/* Main Content Section */}

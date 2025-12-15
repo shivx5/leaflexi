@@ -6,7 +6,7 @@ function LeaflexiCard({ sethoverState, hoverState, data }) {
   return (
     <div
       id={id}
-      className={`flex flex-col p-4 lg:p-5 rounded-xl gap-2   sm:gap-6 md:gap-10 
+      className={`flex flex-col p-4 lg:p-5 rounded-xl gap-2   sm:gap-6 md:gap-8 
      border-[#E8E8E8] text-[#666666] transition-all duration-300 ease-in-out w-full min-h-[6rem] sm:min-h-[14rem] lg:min-h-[14.5rem]
     ${
       id === hoverState
