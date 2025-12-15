@@ -20,11 +20,11 @@ function Booking({ id, host }) {
       {/* Main Content Section */}
       <div className="flex   sm:justify-between   text-black  flex-col md:flex-row lg:gap-5 md:gap-4 sm:gap-3 gap-2   ">
         <h1
-          className={`font-bold  text-xl sm:text-5xl md:text-5xl text-center md:text-start  `}
+          className={`font-bold  text-xl sm:text-3xl md:text-5xl text-center md:text-start  `}
         >
           {title2}
         </h1>
-        <p className="md:w-[48%]  flex self-start lg:text-lg md:text-base sm:text-sm text-xs  text-[#666666] text-centre md:text-start">
+        <p className="md:w-[48%] mt-2 flex self-start lg:text-lg md:text-base sm:text-sm text-xs  text-[#666666] text-centre md:text-start">
           {para}
         </p>
       </div>
