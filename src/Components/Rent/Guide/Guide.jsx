@@ -5,26 +5,25 @@ import play from "../../../assets/Guide/play.svg";
 
 function Guide() {
   return (
-    <div className="relative z-0 bg-gradient-to-r from-white via-purple-200 to-white  flex items-center justify-center py-10  my-10 px-4 sm:px-6 md:px-12 lg:px-24">
+    <div className="relative z-0 bg-gradient-to-r from-white via-purple-200 to-white  flex items-center justify-center py-10  my-10 px-4 sm:px-6 md:px-12 lg:px-24 ">
       <div className="max-w-7xl w-full flex flex-col sm:flex-row items-center justify-center gap-8 md:gap-10 lg:gap-16 ">
         {/* Left Side - Image */}
-        <div className="relative w-full sm:w-[60%] lg:w-[50%]">
-          <img
-            src={car}
-            alt="Car"
-            className="rounded-xl object-cover w-full h-auto max-h-[25rem]"
-          />
+        <div
+          className="relative w-full sm:w-[80%] lg:w-[50%] h-[25rem] bg-cover rounded-3xl"
+          style={{ backgroundImage: `url(${car})` }}
+        >
+          {/* <img src={car} alt="Car" className="rounded-xl object-cover " /> */}
           <img
             src={play}
             alt="Play Icon"
             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-12 sm:size-14 md:size-16 lg:size-20"
           />
         </div>
-
+        {/* w-full sm:w-[90%] lg:w-[50%]  gap-4 sm:gap-2 md:gap-2 lg:gap-8  flex flex-col */}
         {/* Right Side - Content */}
-        <div className="w-full sm:w-[90%] lg:w-[50%] flex flex-col gap-4 md:gap-6 lg:gap-8">
+        <div className="  flex flex-col justify-between  gap-4 sm:gap-6 md:gap-10 ">
           {/* Top Launching Text */}
-          <div className="flex flex-col gap-2 text-center sm:text-left">
+          <div className="flex flex-col gap-2 md:gap-1 text-center sm:text-left">
             <div className="flex items-center justify-center sm:justify-start gap-2">
               <div className="h-2.5 w-2.5 bg-primary rounded-full"></div>
               <span className="font-bold text-xs md:text-sm lg:text-base text-primary">
@@ -41,15 +40,15 @@ function Guide() {
           </div>
 
           {/* Feature List */}
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-2 md:gap-2">
             {[
               "Affordable Monthly Rentals",
               "Flexible Lease Terms – Choose the duration that suits your needs and budget.",
               "Easy booking process – quick and hassle-free",
               "Perfect blend of comfort, quality, and savings",
             ].map((text, index) => (
-              <div key={index} className="flex items-start gap-3 ">
-                <img src={list} className="size-5 mt-1" />
+              <div key={index} className="flex  items-start gap-3 ">
+                <img src={list} className="size-5" />
                 <p className="font-medium text-sm md:text-sm text-[#050B20]">
                   {text}
                 </p>
