@@ -9,7 +9,7 @@ function Guide() {
       <div className="max-w-7xl w-full flex flex-col sm:flex-row items-center justify-center gap-8 md:gap-10 lg:gap-16 ">
         {/* Left Side - Image */}
         <div
-          className="relative w-full sm:w-[80%] lg:w-[50%] h-[25rem] bg-cover rounded-3xl"
+          className="relative w-full sm:w-[80%] lg:w-[50%] h-[25rem] bg-cover rounded-xl"
           style={{ backgroundImage: `url(${car})` }}
         >
           {/* <img src={car} alt="Car" className="rounded-xl object-cover " /> */}
